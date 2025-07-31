@@ -44,16 +44,27 @@ button:hover {
     cursor: pointer;
 }
 
+/* タイトル */
+h1 .edit {
+    margin-left: 1rem;
+    color: red;
+    font-size: .5em;
+}
+
 /* 登録フォーム */
-#add-form {
+.add-form, .edit-form {
     margin-top: 30px;
+    width: 100%;
+}
+
+#input-form {
     width: 100%;
     display: flex;
     justify-content: center;
     gap: 3px;
 }
 
-#add-form input[type="text"] {
+#input-form input[type="text"] {
     height: 2rem;
     width: 100%;
     max-width: 400px;
@@ -62,8 +73,22 @@ button:hover {
     border-radius: 5px;
 }
 
-#add-form button {
+#input-form button {
     background-color: #4CD54C;
+    color: white;
+}
+
+/* 編集モード */
+.edit-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.button-cancel {
+    width: 8rem;
+    background-color: #F69364;
     color: white;
 }
 
