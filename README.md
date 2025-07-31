@@ -14,14 +14,14 @@ Laravelを普段使っているが、素のPHP（バニラPHP）はあまり経�
 
 ## 使い方
 
-1. `index.php`をApacheのDocumentRoot配下に置く
-2. ブラウザで `http://localhost/index.php` にアクセス
+1. `app.php`をApacheのDocumentRoot配下に置く
+2. ブラウザで `http://localhost/app.php` にアクセス
 3. TODOの追加、編集、削除が可能
 4. セッション管理のためブラウザ単位でTODOが保存される（サーバーにDBは不要）
 
 ## ファイル構成
 
-- `index.php` … メインのPHPとHTMLコードを含む1ファイル完結型
+- `app.php` … メインのPHPとHTMLコードを含む1ファイル完結型
 - `style.css` … シンプルな見た目用スタイルシート
 
 ## 補足
